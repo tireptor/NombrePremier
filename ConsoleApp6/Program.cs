@@ -60,11 +60,11 @@ namespace ConsoleApp6
             {
                 if (estPremier(number))
                 {
-                    sh += number+" est premié " + "\n";
+                    sh += number+" est premier " + "\n";
                 }
                 else
                 {
-                    sh += number + " n'est pas premié ";
+                    sh += number + " n'est pas premier ";
                     sh += listeDiviseur(number)+"\n";
                 }
             }
